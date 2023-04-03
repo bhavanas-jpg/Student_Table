@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/**manufacturer lists :start**/
+.manufacturers-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   margin: 0 30px;
+}
+.list-item img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.list-item h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.lists-heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.list-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists-button{
+ outline: none;
+ border: none;
+ font-size: 20px;
+ padding: 10px;
+ border-radius: 5px;
+ background-color: #38d39f;
+ color: #fff;
+ cursor: pointer;
+ margin: 40px 0;
+
+}
+/**manufacturer lists :end**/
